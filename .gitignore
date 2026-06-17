@@ -1,0 +1,8 @@
+node_modules/
+*.log
+.DS_Store
+.env
+.env.*
+
+# dist/ is intentionally NOT ignored — it is committed and shipped so the
+# package can be installed straight from GitHub (npx github:cryptohopper/cryptohopperai-mcp).
